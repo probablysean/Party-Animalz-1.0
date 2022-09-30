@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerDialogObject : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class PlayerDialogObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dialogManagerScript = GameObject.Find("Dialog Manager").GetComponent<DialogManagerScript>(); ;
+        dialogManagerScript = GameObject.Find("Dialog Manager").GetComponent<DialogManagerScript>(); 
 
     }
 
@@ -18,18 +19,10 @@ public class PlayerDialogObject : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Mouse0) && reading == false)
         {
-            StartCoroutine(IsReading());
-            //Debug.Log("test");
             dialogManagerScript.Dialog();
         }
     }
 
-    IEnumerator IsReading()
-    {
-        //Debug.Log("test");
-        reading = true;
-        yield return new WaitForSeconds(1);
-        reading = false;
-    }
+
      
 }

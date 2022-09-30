@@ -1,25 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogManagerScript : MonoBehaviour
 {
-    public GameObject image;
-    public GameObject testDialog;
+    public Sprite image1;
+    public TestDialogScript currentDialogScript;
+    public GameObject currentDialog;
+    public int currentSlide;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        testDialog = GameObject.Find("TestDialog");
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void Dialog()
     {
-        Debug.Log("test");
+        //Change to looking for tags later
+        currentDialog = GameObject.Find("TestDialog");
+        currentDialogScript = currentDialog.GetComponent<TestDialogScript>();
+
+        image1 = currentDialogScript.SendImage();
+
+        this.GetComponent<Image>().sprite = image1;
     }
 }
