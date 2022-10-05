@@ -6,23 +6,25 @@ using UnityEngine.UI;
 public class PlayerDialogObject : MonoBehaviour
 {
     public DialogManagerScript dialogManagerScript;
-    public bool reading = false;
+    public bool InRadius;
+    public TestDialogScript currentDialogScript1;
+
     // Start is called before the first frame update
     void Start()
     {
-        dialogManagerScript = GameObject.Find("Dialog Manager").GetComponent<DialogManagerScript>(); 
-
+        dialogManagerScript = GameObject.Find("Dialog Manager").GetComponent<DialogManagerScript>();
+       
     }
 
-    // Update is called once per frame
-    void Update()
+
+
+    public TestDialogScript CheckDialogRadius()
     {
-        if(Input.GetKeyDown(KeyCode.Mouse0) && reading == false)
-        {
-            dialogManagerScript.Dialog();
-        }
+        //replace with radius check later
+        currentDialogScript1 = GameObject.Find("TestDialog").GetComponent<TestDialogScript>();
+
+        //return currentDialogScript;
+        return currentDialogScript1;
     }
 
-
-     
 }

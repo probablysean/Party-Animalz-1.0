@@ -13,24 +13,14 @@ public class TestDialogScript : MonoBehaviour
   
     public Sprite SendImage()
     {
-        
-
         if (slide < testDialog.Length)
         {
             
             currentSlide = testDialog[slide];
             slide = slide + 1;
 
-            if(slide == testDialog.Length)
-            {
-                Time.timeScale = 1f;
-                slide = 0;
-            }
-            else
-            {
-                Time.timeScale = 0f;
-            }
-            
+            InDialog();
+          
         }
         else
         {
@@ -38,5 +28,19 @@ public class TestDialogScript : MonoBehaviour
         }
        
         return currentSlide;
+    }
+
+    public void InDialog()
+    {
+        if (slide == testDialog.Length)
+        {
+            slide = 0;
+        }
+      
+    }
+
+    public int SendLength()
+    {
+        return testDialog.Length;
     }
 }
