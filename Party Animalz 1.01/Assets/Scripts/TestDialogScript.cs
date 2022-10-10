@@ -6,41 +6,30 @@ using UnityEngine.UI;
 public class TestDialogScript : MonoBehaviour
 {
 
-    public Sprite[] testDialog;
-    public int slide = 0;
-    public Sprite currentSlide; 
+    public Sprite[] dialogStart;
+    public Sprite[] buttonsBranchA;
+    public Sprite[] currentDialog;
+    public bool branches;
 
-  
-    public Sprite SendImage()
+    public void Start()
     {
-        if (slide < testDialog.Length)
-        {
-            
-            currentSlide = testDialog[slide];
-            slide = slide + 1;
-
-            InDialog();
-          
-        }
-        else
-        {
-            slide = 0;
-        }
-       
-        return currentSlide;
+        currentDialog = dialogStart;
+    }
+    //Send current slide and que up the next one in the array
+    public Sprite[] SendDialog()
+    {
+        return currentDialog;
     }
 
-    public void InDialog()
+    //Send the number 
+    public bool CheckBranches()
     {
-        if (slide == testDialog.Length)
-        {
-            slide = 0;
-        }
-      
+        return branches;
     }
 
-    public int SendLength()
+    public Sprite[] GetButtons()
     {
-        return testDialog.Length;
+
+        return buttonsBranchA;
     }
 }
