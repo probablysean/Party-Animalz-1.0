@@ -11,7 +11,7 @@ public class DialogManagerScript : MonoBehaviour
     public int currentSlide;
     public bool isTalking = false;
     public int conversationSize;
-    public bool branches;
+    public bool branches = false;
     public Sprite[] currentButtons;
     public GameObject button1;
     public GameObject button2;

@@ -8,8 +8,11 @@ public class TestDialogScript : MonoBehaviour
 
     public Sprite[] dialogStart;
     public Sprite[] buttonsBranchA;
+    public Sprite[] dialogA1;
+    public Sprite[] dialogA2;
+    public Sprite[] dialogA3;
     public Sprite[] currentDialog;
-    public bool branches;
+    public bool branches = false;
 
     public void Start()
     {
@@ -24,6 +27,14 @@ public class TestDialogScript : MonoBehaviour
     //Send the number 
     public bool CheckBranches()
     {
+        if (dialogA1.Length == 0)
+        {
+            branches = false;
+        }
+        else
+        {
+            branches = true;
+        }
         return branches;
     }
 
