@@ -10,7 +10,6 @@ public class TestDialogScript : MonoBehaviour
     public Sprite[] buttonsBranchA;
     public Sprite[] dialogA1;
     public Sprite[] dialogA2;
-    public Sprite[] dialogA3;
     public Sprite[] currentDialog;
     public bool branches = false;
 

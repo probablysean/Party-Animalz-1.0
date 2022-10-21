@@ -15,7 +15,7 @@ public class DialogManagerScript : MonoBehaviour
     public Sprite[] currentButtons;
     public GameObject button1;
     public GameObject button2;
-    public GameObject button3;
+    public GameObject mainButton;
 
 
     //find player object to use for radius detection later
@@ -52,7 +52,8 @@ public class DialogManagerScript : MonoBehaviour
             //start dialog and find the total slide length
             Debug.Log("Dialog Started");
             isTalking = true;
-            
+
+            mainButton.SetActive(true);
 
             currentDialog = currentDialogScript.SendDialog();
 
@@ -96,25 +97,13 @@ public class DialogManagerScript : MonoBehaviour
             conversationSize = 100;
             currentSlide = 0;
             isTalking = false;
+            mainButton.SetActive(false);
             Debug.Log("Dialog Ended");
         }
         else
         {
             //open buttons
             currentButtons = currentDialogScript.GetButtons();
-
-            //3 Buttons
-            if(currentButtons.Length == 3)
-            {
-                button1.SetActive(true);
-                button1.GetComponent<Image>().sprite = currentButtons[0];
-
-                button2.SetActive(true);
-                button2.GetComponent<Image>().sprite = currentButtons[1];
-
-                button3.SetActive(true);
-                button3.GetComponent<Image>().sprite = currentButtons[2];
-            }
 
             //2 Buttons
             if (currentButtons.Length == 2)
@@ -125,6 +114,8 @@ public class DialogManagerScript : MonoBehaviour
                 button2.SetActive(true);
                 button2.GetComponent<Image>().sprite = currentButtons[1];
             }
+
+            mainButton.SetActive(false);
 
         }
       
