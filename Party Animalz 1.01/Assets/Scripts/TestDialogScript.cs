@@ -9,14 +9,29 @@ public class TestDialogScript : MonoBehaviour
     public Sprite[] dialogStart;
     public Sprite[] buttonsBranchA;
     public Sprite[] currentButtons;
+    public Sprite[] emptyButtons;
 
     public Sprite[] dialogA1;
+    public Sprite[] buttonBranchA1;
     public Sprite[] dialogA12;
     public Sprite[] dialogA11;
+    public Sprite[] buttonBranchA12;
+    public Sprite[] buttonBranchA11;
+    public Sprite[] dialogA111;
+    public Sprite[] dialogA112;
+    public Sprite[] dialogA121;
+    public Sprite[] dialogA122;
 
     public Sprite[] dialogA2;
+    public Sprite[] buttonBranchA2;
     public Sprite[] dialogA21;
     public Sprite[] dialogA22;
+    public Sprite[] buttonBranchA21;
+    public Sprite[] buttonBranchA22;
+    public Sprite[] dialogA211;
+    public Sprite[] dialogA212;
+    public Sprite[] dialogA221;
+    public Sprite[] dialogA222;
 
     public Sprite[] currentDialog;
     public int[] dialogArray;
@@ -38,7 +53,7 @@ public class TestDialogScript : MonoBehaviour
     public int CheckBranches()
     {
 
-        if (dialogA1.Length == 0)
+        if (currentButtons.Length == 0)
         {
             branchesIndex = 0;
         }
@@ -86,10 +101,12 @@ public class TestDialogScript : MonoBehaviour
             if(dialogArray[0] == 1)
             {
                 currentDialog = dialogA1;
+                currentButtons = buttonBranchA1;
             }
             else
             {
                 currentDialog = dialogA2;
+                currentButtons = buttonBranchA2;
             }
         }
 
@@ -100,10 +117,12 @@ public class TestDialogScript : MonoBehaviour
                 if(dialogArray[1] == 1)
                 {
                     currentDialog = dialogA11;
+                    currentButtons = buttonBranchA11;
                 }
                 else
                 {
                     currentDialog = dialogA12;
+                    currentButtons = buttonBranchA12;
                 }
             }
             else
@@ -111,14 +130,76 @@ public class TestDialogScript : MonoBehaviour
                 if (dialogArray[1] == 1)
                 {
                     currentDialog = dialogA21;
+                    currentButtons = buttonBranchA21;
                 }
                 else
                 {
-                    currentDialog = dialogA22; 
+                    currentDialog = dialogA22;
+                    currentButtons = buttonBranchA22;
                 }
             }
+        }
 
-
+        if(dialogSection == 2)
+        {
+            if(dialogArray[0] == 1)
+            {
+                if(dialogArray[1] == 1)
+                {
+                    if(dialogArray[2] == 1)
+                    {
+                        currentDialog = dialogA111;
+                        currentButtons = emptyButtons;
+                    }
+                    else
+                    {
+                        currentDialog = dialogA112;
+                        currentButtons = emptyButtons;
+                    }
+                }
+                else
+                {
+                    if(dialogArray[2] == 1)
+                    {
+                        currentDialog = dialogA121;
+                        currentButtons = emptyButtons;
+                    }
+                    else
+                    {
+                        currentDialog = dialogA122;
+                        currentButtons = emptyButtons;
+                    }
+                }
+            }
+            else
+            {
+                if(dialogArray[1] == 1)
+                {
+                    if (dialogArray[2] == 1)
+                    {
+                        currentDialog = dialogA211;
+                        currentButtons = emptyButtons;
+                    }
+                    else
+                    {
+                        currentDialog = dialogA212;
+                        currentButtons = emptyButtons;
+                    }
+                }
+                else
+                {
+                    if(dialogArray[2] == 1)
+                    {
+                        currentDialog = dialogA221;
+                        currentButtons = emptyButtons;
+                    }
+                    else
+                    {
+                        currentDialog = dialogA222;
+                        currentButtons = emptyButtons;
+                    }
+                }
+            }
         }
 
         dialogSection += 1;

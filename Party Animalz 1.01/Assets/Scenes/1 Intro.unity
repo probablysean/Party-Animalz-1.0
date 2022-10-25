@@ -2092,10 +2092,14 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
   - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
   currentButtons: []
+  emptyButtons: []
   dialogA1:
   - {fileID: 21300000, guid: 165110d308b89d84984f3b2279934ce6, type: 3}
   - {fileID: 21300000, guid: 2dec0635968d4e349a991055e75eb651, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  buttonBranchA1:
+  - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
+  - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
   dialogA12:
   - {fileID: 21300000, guid: 3632ed150d329af45a28c9e9bd2ddeba, type: 3}
   - {fileID: 21300000, guid: 411cd123ffcdf5e40a91f6e8b8440a6c, type: 3}
@@ -2104,10 +2108,31 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3632ed150d329af45a28c9e9bd2ddeba, type: 3}
   - {fileID: 21300000, guid: 411cd123ffcdf5e40a91f6e8b8440a6c, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  buttonBranchA12:
+  - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
+  - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
+  buttonBranchA11:
+  - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
+  - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
+  dialogA111:
+  - {fileID: 21300000, guid: bb45252beeeac9a4e8e6b203b839a097, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  dialogA112:
+  - {fileID: 21300000, guid: fcee7bb9deb496545b3af75ae9090e63, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  dialogA121:
+  - {fileID: 21300000, guid: 3632ed150d329af45a28c9e9bd2ddeba, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  dialogA122:
+  - {fileID: 21300000, guid: 3632ed150d329af45a28c9e9bd2ddeba, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   dialogA2:
   - {fileID: 21300000, guid: fcee7bb9deb496545b3af75ae9090e63, type: 3}
   - {fileID: 21300000, guid: 417b304564b5d2f4cbc28f30aef3cee5, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  buttonBranchA2:
+  - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
+  - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
   dialogA21:
   - {fileID: 21300000, guid: bb45252beeeac9a4e8e6b203b839a097, type: 3}
   - {fileID: 21300000, guid: 20c4a592eb0f0724e944ffd75dd84005, type: 3}
@@ -2115,6 +2140,18 @@ MonoBehaviour:
   dialogA22:
   - {fileID: 21300000, guid: 165110d308b89d84984f3b2279934ce6, type: 3}
   - {fileID: 21300000, guid: 2dec0635968d4e349a991055e75eb651, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  buttonBranchA21: []
+  buttonBranchA22:
+  - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
+  - {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
+  dialogA211: []
+  dialogA212: []
+  dialogA221:
+  - {fileID: 21300000, guid: 165110d308b89d84984f3b2279934ce6, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  dialogA222:
+  - {fileID: 21300000, guid: 165110d308b89d84984f3b2279934ce6, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   currentDialog: []
   dialogArray: 00000000000000000000000000000000000000000000000000000000000000000000000000000000

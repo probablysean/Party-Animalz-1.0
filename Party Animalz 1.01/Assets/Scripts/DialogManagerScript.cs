@@ -82,7 +82,7 @@ public class DialogManagerScript : MonoBehaviour
     {
         this.GetComponent<Image>().sprite = currentDialog[currentSlide];
 
-        currentSlide = currentSlide + 1;
+        currentSlide += 1;
 
         if(currentSlide == conversationSize)
         {
