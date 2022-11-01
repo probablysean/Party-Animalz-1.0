@@ -5,26 +5,40 @@ using UnityEngine.UI;
 
 public class PlayerDialogObject : MonoBehaviour
 {
-    public DialogManagerScript dialogManagerScript;
     public bool InRadius;
-    public TestDialogScript currentDialogScript1;
+    public float Radius;
+    public DialogInteractObject DIO;
+    public bool isTalking = false;
 
-    // Start is called before the first frame update
-    void Start()
+    void Update()
     {
-        dialogManagerScript = GameObject.Find("Dialog Manager").GetComponent<DialogManagerScript>();
-       
+        if(Input.GetKey("e") && isTalking == false)
+        {
+            CheckDialogRadius();
+        }
     }
 
-
-
-    public TestDialogScript CheckDialogRadius()
+    public void CheckDialogRadius()
     {
-        //replace with radius check later
-        currentDialogScript1 = GameObject.Find("TestDialog").GetComponent<TestDialogScript>();
+        //Check Radius later
+        DIO = GameObject.Find("DialogInteractObject").GetComponent<DialogInteractObject>();
 
-        //return currentDialogScript;
-        return currentDialogScript1;
+        if(DIO != null)
+        {
+            DIO.StartDialog();
+            isTalking = true;
+            Debug.Log("Start Dialog");
+        }
+        else
+        {
+            Debug.Log("No NPC's in radius");
+        }
+    }
+
+    public void EndDialog()
+    {
+        isTalking = false;
+        Debug.Log("End Dialog");
     }
 
 }

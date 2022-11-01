@@ -53,7 +53,7 @@ public class DialogManagerScript : MonoBehaviour
         currentSlide = 0;
 
         //call player object to check for radius of script or npc's
-        currentDialogScript = playerDialogObject.CheckDialogRadius();
+        //currentDialogScript = playerDialogObject.CheckDialogRadius();
 
         if (currentDialogScript != null)
         {
