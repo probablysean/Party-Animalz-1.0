@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class IntroDialog : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class IntroDialog : MonoBehaviour
     public Sprite[] dialogOne;
     public GameObject mainImage;
 
-    public bool event4 = false;
+    public bool event9 = false;
 
     // Start is called before the first frame update
     void Start()
@@ -30,18 +31,21 @@ public class IntroDialog : MonoBehaviour
         if(slide1 == 1)
         {
             //reset events for simple loops at 1
-            event4 = false;
+            event9 = false;
         }
 
-        if(slide1 == 4 && event4 == false)
+        if(slide1 == 9 && event9 == false)
         {
             EndDialog();
-            event4 = true;
+            event9 = true;
         }
     }
 
     void EndDialog()
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+
         PDO.EndDialog();
         DIO.HideButton();
     }

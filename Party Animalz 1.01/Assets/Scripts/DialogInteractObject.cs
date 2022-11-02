@@ -27,6 +27,7 @@ public class DialogInteractObject : MonoBehaviour
     public void AddSlide()
     {
         slide += 1;
+        Debug.Log("test");
     }
 
     public void HideButton()
