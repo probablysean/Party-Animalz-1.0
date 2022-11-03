@@ -20,9 +20,9 @@ public class BeatScroller : MonoBehaviour
     {
         if(!hasStarted)
         {
-            if(Input.anyKeyDown)
+            //if(Input.anyKeyDown)
             {
-                hasStarted = true;
+                //hasStarted = true;
             }
         }
         else
@@ -30,4 +30,6 @@ public class BeatScroller : MonoBehaviour
             transform.position -= new Vector3(0f, beatTempo * 150f/ 60f * Time.deltaTime, 0f);
         }
     }
+
+
 }
