@@ -10,11 +10,21 @@ public class DialogInteractObject : MonoBehaviour
     public GameObject mainButton;
     public int slide;
 
+
     // Start is called before the first frame update
     void Start()
     { 
         PDO = GameObject.Find("PlayerDialogObject").GetComponent<PlayerDialogObject>();
         slide = 0;
+
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown("e") && PDO.isTalking == true)  
+        {
+            AddSlide();
+        }
     }
 
     public void StartDialog()
@@ -27,12 +37,14 @@ public class DialogInteractObject : MonoBehaviour
     public void AddSlide()
     {
         slide += 1;
-        Debug.Log("test");
+        Debug.Log("Next Slide");
     }
 
     public void HideButton()
     {
         mainButton.SetActive(false);
     }
+
+
 }
 
