@@ -6,6 +6,7 @@ public class BeatScroller : MonoBehaviour
 {
 
     public float beatTempo;
+    public float tempoConstant = 1f;
 
     public bool hasStarted;
 
@@ -27,7 +28,7 @@ public class BeatScroller : MonoBehaviour
         }
         else
         {
-            transform.position -= new Vector3(0f, beatTempo * 150f/ 60f * Time.deltaTime, 0f);
+            transform.position -= new Vector3(0f, beatTempo * tempoConstant / 60f * Time.deltaTime, 0f);
         }
     }
 
