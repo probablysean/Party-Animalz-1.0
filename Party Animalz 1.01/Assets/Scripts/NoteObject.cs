@@ -34,7 +34,7 @@ public class NoteObject : MonoBehaviour
                 if(transform.position.y > -3.69 || transform.position.y < -3.81)
                 { 
                     GameManager.instance.NormalHit();
-                    Debug.Log("Nice");
+                    //Debug.Log("Nice");
                     //Instantiate(hitEffect, transform.position, hitEffect.transform.rotation) ;
                     GameObject e1 = Instantiate(hitEffect, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
                     e1.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
@@ -46,7 +46,7 @@ public class NoteObject : MonoBehaviour
                 else if(transform.position.y > -3.73 || transform.position.y < -3.77)
                 {
                     GameManager.instance.GoodHit();
-                    Debug.Log("Good");
+                    //Debug.Log("Good");
                     //Instantiate(goodEffect, transform.position, goodEffect.transform.rotation);
                     GameObject e1 = Instantiate(goodEffect, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
                     e1.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
@@ -56,7 +56,7 @@ public class NoteObject : MonoBehaviour
                 else
                 {
                     GameManager.instance.PerfectHit();
-                    Debug.Log("Perfect");
+                    //Debug.Log("Perfect");
                     //Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation);
                     GameObject e1 = Instantiate(perfectEffect, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
                     e1.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);

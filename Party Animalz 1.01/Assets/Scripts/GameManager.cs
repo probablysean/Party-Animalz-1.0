@@ -28,11 +28,24 @@ public class GameManager : MonoBehaviour
     private string score;
     private string cM;
 
+    public float totalNotes;
+    public float normalHits;
+    public float goodHits;
+    public float perfectHits;
+    public float missedHits;
+
+    public GameObject resultsScreen;
+    public Text percentHit, goodText, perfectText, missText;
+
+    public GameObject pauseMenu;
+
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
         currentMultiplier = 1;
+
+        totalNotes = FindObjectsOfType<NoteObject>().Length;
     }
 
     // Update is called once per frame
@@ -48,24 +61,48 @@ public class GameManager : MonoBehaviour
                 theMusic.Play();
             }
         }
+        else
+        {
+            if(!theMusic.isPlaying && !resultsScreen.activeInHierarchy && !pauseMenu.activeInHierarchy)
+            {
+                resultsScreen.SetActive(true);
+
+                string gt = goodHits.ToString();
+                goodText.text = gt;
+
+                string pt = perfectHits.ToString();
+                perfectText.text = pt;
+
+                string mt = missedHits.ToString();
+                missText.text = mt;
+
+                float percHit = (totalNotes - missedHits)*100f / totalNotes;
+
+                string pc = percHit.ToString("F1");
+                percentHit.text = pc +" %";
+            }
+        }
     }
 
     public void NormalHit()
     {
         currentScore += scorePerNote * currentMultiplier;
         NoteHit();
+        normalHits++;
     }
 
     public void GoodHit()
     {
         currentScore += scorePerGoodNote * currentMultiplier;
         NoteHit();
+        goodHits++;
     }
 
     public void PerfectHit()
     {
         currentScore += scorePerPerfectNote * currentMultiplier;
         NoteHit();
+        perfectHits++;
     }
 
     public void NoteHit()
@@ -101,5 +138,7 @@ public class GameManager : MonoBehaviour
 
         cM = currentMultiplier.ToString();
         multiText.text = "x" + cM;
+
+        missedHits++;
     }
 }
