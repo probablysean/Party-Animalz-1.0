@@ -6,9 +6,11 @@ using UnityEngine.UI;
 public class PlayerDialogObject : MonoBehaviour
 {
     public bool InRadius;
-    public float Radius;
+    public float radius;
     public DialogInteractObject DIO;
     public bool isTalking = false;
+    public LayerMask npcLayer;
+    public Transform playerCenter;
 
     void Update()
     {
@@ -21,7 +23,14 @@ public class PlayerDialogObject : MonoBehaviour
     public void CheckDialogRadius()
     {
         //Check Radius later
-        DIO = GameObject.Find("DialogInteractObject").GetComponent<DialogInteractObject>();
+        //DIO = GameObject.Find("DialogInteractObject").GetComponent<DialogInteractObject>();
+
+        Collider2D[] npcs = Physics2D.OverlapCircleAll(playerCenter.position, radius, npcLayer);
+
+        foreach(Collider2D npc in npcs)
+        {
+            DIO = npc.GetComponent<DialogInteractObject>();
+        }
 
         if(DIO != null)
         {
@@ -39,6 +48,14 @@ public class PlayerDialogObject : MonoBehaviour
     {
         isTalking = false;
         Debug.Log("End Dialog");
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (playerCenter == null)
+            return;
+
+        Gizmos.DrawWireSphere(playerCenter.position, radius);
     }
 
 }

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/4 Exit.unity
     guid: cdc25888b2fd05041810100098af961e
+  - enabled: 1
+    path: Assets/Scenes/5 Training Rhythm Game.unity
+    guid: bab52c222d0d1324985ff5329c3bc574
   m_configObjects: {}

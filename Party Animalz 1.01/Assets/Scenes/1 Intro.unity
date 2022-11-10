@@ -313,7 +313,8 @@ GameObject:
   m_Component:
   - component: {fileID: 481342456}
   - component: {fileID: 481342457}
-  m_Layer: 0
+  - component: {fileID: 481342458}
+  m_Layer: 6
   m_Name: DialogInteractObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +329,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481342455}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.36, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -350,6 +351,22 @@ MonoBehaviour:
   PDO: {fileID: 0}
   mainButton: {fileID: 1854094353}
   slide: 0
+--- !u!58 &481342458
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481342455}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &506688518
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,7 +884,6 @@ MonoBehaviour:
   pauseMenu: {fileID: 1493447983}
   pauseButton: {fileID: 1665697729}
   audio1: {fileID: 1265875177}
-  slowTrack: 0.6
 --- !u!4 &1105219391
 Transform:
   m_ObjectHideFlags: 0
@@ -1663,7 +1679,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525221318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1023.8788, y: 546.61444, z: -12.090963}
+  m_LocalPosition: {x: 2.14, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1805,7 +1821,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1535645604}
   m_CullTransparentMesh: 1
---- !u!1 &1647560594
+--- !u!1 &1570314737
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1813,8 +1829,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1647560595}
-  - component: {fileID: 1647560596}
+  - component: {fileID: 1570314739}
+  - component: {fileID: 1570314738}
   m_Layer: 0
   m_Name: PlayerDialogObject
   m_TagString: Untagged
@@ -1822,37 +1838,41 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1647560595
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1647560594}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1091.823, y: 482.56366, z: -5.216235}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1647560596
+--- !u!114 &1570314738
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1647560594}
+  m_GameObject: {fileID: 1570314737}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa870aee5f89f61458418aba4b4a6faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   InRadius: 0
-  Radius: 0
+  radius: 1
   DIO: {fileID: 0}
   isTalking: 0
+  npcLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  playerCenter: {fileID: 1570314739}
+--- !u!4 &1570314739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570314737}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1665697729
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,4 +2180,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   mainImage: {fileID: 1125879000}
-  event4: 0
+  event9: 0
