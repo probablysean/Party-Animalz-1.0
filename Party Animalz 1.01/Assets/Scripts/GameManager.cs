@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    #region Music
+
     public AudioSource theMusic;
 
     public bool startPlaying;
@@ -141,4 +143,6 @@ public class GameManager : MonoBehaviour
 
         missedHits++;
     }
+
+    #endregion
 }
