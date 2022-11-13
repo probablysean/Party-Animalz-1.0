@@ -8,13 +8,13 @@ public class LoadMainScene : MonoBehaviour
 {
     public SceneHandler sceneHandler;
 
-    void Awake()
+    public void Start()
     {
         sceneHandler = GameObject.FindGameObjectWithTag("SceneHandler").GetComponent<SceneHandler>();
     }
-
     public void LoadMainScene1()
     {
-        sceneHandler.LoadScene();
+        sceneHandler.LoadPlayer();
+        SceneManager.LoadScene(2);
     }
 }

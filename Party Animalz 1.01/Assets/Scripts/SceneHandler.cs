@@ -5,43 +5,35 @@ using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour
 {
+    public Player player;
+
+    void Start()
+    {
+        player = GameObject.Find("Simba").GetComponent<Player>();
+    }
 
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
     }
 
-    public void SaveScene()
+    public void SaveScene() 
     {
-        int activeScene = SceneManager.GetActiveScene().buildIndex;
-
-        PlayerPrefs.SetInt("ActiveScene", activeScene);
+        SaveSystem.SavePlayer(player);
     }
 
-    public void LoadScene()
+    public void LoadPlayer()
     {
-        int activeScene = PlayerPrefs.GetInt("ActiveScene");
+        PlayerData data = SaveSystem.LoadPlayer();
 
-        //SceneManager.LoadScene(activeScene);
+        Vector3 position;
 
-        //Note: In most cases, to avoid pauses or performance hiccups while loading,
-        //you should use the asynchronous version of the LoadScene() command which is: LoadSceneAsync()
+        position.x = data.position[0];
+        position.y = data.position[1];
+        position.z = data.position[2];
 
-        //Loads the Scene asynchronously in the background
-        StartCoroutine(LoadNewScene(activeScene));
+        transform.position = position;
     }
 
-    IEnumerator LoadNewScene(int sceneBuildIndex)
-    {
-        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(sceneBuildIndex);
-        asyncOperation.allowSceneActivation = false;
 
-        while (asyncOperation.progress < 0.9f)
-        {
-            yield return null;
-        }
-
-        asyncOperation.allowSceneActivation = true;
-
-    }
 }
