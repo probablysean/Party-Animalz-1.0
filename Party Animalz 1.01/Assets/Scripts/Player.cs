@@ -6,8 +6,8 @@ public class Player : MonoBehaviour
 {
     public GameObject player;
 
-    void Awake()
+    public void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        SceneHandler.LoadPlayer();
     }
 }

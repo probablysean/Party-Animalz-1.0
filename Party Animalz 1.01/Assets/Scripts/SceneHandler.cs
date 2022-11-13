@@ -3,36 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneHandler : MonoBehaviour
+public class SceneHandler 
 {
-    public Player player;
+    public static Player player;
+    public static Vector2 movePlayer;
+    public static GameObject simba;
+    public static Vector2 savedPosition;
 
-    void Start()
+
+
+    public static void SavePlayer()
     {
-        player = GameObject.Find("Simba").GetComponent<Player>();
+        savedPosition = GameObject.Find("Simba").transform.position;
+        //Debug.Log(savedPosition.x +","+ savedPosition.y);
     }
 
-    void Awake()
+    public static void LoadPlayer()
     {
-        DontDestroyOnLoad(gameObject);
-    }
+        //Debug.Log("Move Player");
+        //Debug.Log(savedPosition.x + "," + savedPosition.y);
 
-    public void SaveScene() 
-    {
-        SaveSystem.SavePlayer(player);
-    }
+        //find transform
+        simba = GameObject.Find("Simba");
+        Transform simbaPosition = simba.GetComponent<Transform>();
 
-    public void LoadPlayer()
-    {
-        PlayerData data = SaveSystem.LoadPlayer();
+        //move player
+        simbaPosition.position = savedPosition;
 
-        Vector3 position;
 
-        position.x = data.position[0];
-        position.y = data.position[1];
-        position.z = data.position[2];
-
-        transform.position = position;
     }
 
 
