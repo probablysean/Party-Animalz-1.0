@@ -27,7 +27,6 @@ public class LiamDialog : MonoBehaviour
         PDO = GameObject.Find("PlayerDialogObject").GetComponent<PlayerDialogObject>();
         option1 = true;
         choices = false;
-        slide1 = 0;
     }
 
     // Update is called once per frame
@@ -42,7 +41,6 @@ public class LiamDialog : MonoBehaviour
     public void AddSlide()
     {
         slide1 += 1;
-        Debug.Log("Slide " + slide1);
 
         if (option1 == true )
         {
@@ -73,6 +71,7 @@ public class LiamDialog : MonoBehaviour
         
         if(slide1 == 6 && option1 == true)
         {
+            slide1 = 3;
             LoadTrainingScene();
         }
 
@@ -95,7 +94,6 @@ public class LiamDialog : MonoBehaviour
 
     public void EndChoices()
     {
-        DIO.slide += 1;
         mainButton.SetActive(true);
         button1.SetActive(false);
         button2.SetActive(false);
@@ -105,14 +103,14 @@ public class LiamDialog : MonoBehaviour
 
     public void Button1()
     {
-        EndChoices();
         option1 = true;
+        EndChoices();
     }
 
     public void Button2()
     {
-        EndChoices();
         option1 = false;
+        EndChoices();
     }
 
     void LoadTrainingScene()
@@ -130,6 +128,7 @@ public class LiamDialog : MonoBehaviour
         PDO.EndDialog();
 
         mainButton.SetActive(false);
+        mainImage.SetActive(false);
         button1.SetActive(false);
         button2.SetActive(false);
     }

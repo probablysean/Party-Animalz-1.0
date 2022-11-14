@@ -2952,11 +2952,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: dc8fadc2a2def2b4dbc35a8ed6c1535e, type: 3}
   - {fileID: 21300000, guid: 97ffdb5ab2ce3b3458f6db7d79b17e29, type: 3}
   - {fileID: 21300000, guid: bb45252beeeac9a4e8e6b203b839a097, type: 3}
-  - {fileID: 21300000, guid: 20c4a592eb0f0724e944ffd75dd84005, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   dialogTwo:
   - {fileID: 21300000, guid: fcee7bb9deb496545b3af75ae9090e63, type: 3}
-  - {fileID: 21300000, guid: 417b304564b5d2f4cbc28f30aef3cee5, type: 3}
-  - {fileID: 21300000, guid: 5ffbff8a25e8c54438a7dcb0df778252, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   mainImage: {fileID: 783541302}
   image: {fileID: 0}
@@ -3716,7 +3716,7 @@ GameObject:
   - component: {fileID: 1477010633}
   - component: {fileID: 1477010634}
   m_Layer: 6
-  m_Name: LiamDialogInteractObject
+  m_Name: LiamDIO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

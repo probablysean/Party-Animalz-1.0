@@ -10,34 +10,27 @@ public class SceneHandler
     public static GameObject simba;
     public static Vector2 savedPosition;
 
-
+    public static int liamDialogSlide;
 
     public static void SavePlayer()
     {
+        //player
         savedPosition = GameObject.Find("Simba").transform.position;
-        //Debug.Log(savedPosition.x +","+ savedPosition.y);
-        SaveDialog();
+
+        //liam
+        liamDialogSlide = GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1;
     }
 
     public static void LoadPlayer()
     {
-        //Debug.Log("Move Player");
-        //Debug.Log(savedPosition.x + "," + savedPosition.y);
-
-        //find transform
+        //player
         simba = GameObject.Find("Simba");
         Transform simbaPosition = simba.GetComponent<Transform>();
-
-        //move player
         simbaPosition.position = savedPosition;
 
-
+        //liam
+        GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1 = liamDialogSlide;
+        Debug.Log(GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1);
     }
-
-    public static void SaveDialog()
-    {
-
-    }
-
 
 }

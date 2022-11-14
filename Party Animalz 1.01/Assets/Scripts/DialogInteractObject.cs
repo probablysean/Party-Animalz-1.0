@@ -7,7 +7,6 @@ public class DialogInteractObject : MonoBehaviour
 {
 
     public PlayerDialogObject PDO;
-    public int slide;
     public bool isTalkingDIO;
 
     // Start is called before the first frame update

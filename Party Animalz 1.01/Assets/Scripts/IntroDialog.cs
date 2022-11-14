@@ -19,7 +19,6 @@ public class IntroDialog : MonoBehaviour
     void Start()
     {
         PDO = GameObject.Find("PlayerDialogObject").GetComponent<PlayerDialogObject>();
-        slide1 = 0;
     }
 
     // Update is called once per frame
