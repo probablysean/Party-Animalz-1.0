@@ -16,6 +16,7 @@ public class SceneHandler
     {
         savedPosition = GameObject.Find("Simba").transform.position;
         //Debug.Log(savedPosition.x +","+ savedPosition.y);
+        SaveDialog();
     }
 
     public static void LoadPlayer()
@@ -30,6 +31,11 @@ public class SceneHandler
         //move player
         simbaPosition.position = savedPosition;
 
+
+    }
+
+    public static void SaveDialog()
+    {
 
     }
 

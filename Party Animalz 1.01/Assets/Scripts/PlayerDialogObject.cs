@@ -8,13 +8,13 @@ public class PlayerDialogObject : MonoBehaviour
     public bool InRadius;
     public float radius;
     public DialogInteractObject DIO;
-    public bool isTalking = false;
+    public bool isTalkingPDO = false;
     public LayerMask npcLayer;
     public Transform playerCenter;
 
     void Update()
     {
-        if(Input.GetKey("e") && isTalking == false)
+        if(Input.GetKey("e") && isTalkingPDO == false)
         {
             CheckDialogRadius();
         }
@@ -35,7 +35,7 @@ public class PlayerDialogObject : MonoBehaviour
         if(DIO != null)
         {
             DIO.StartDialog();
-            isTalking = true;
+            isTalkingPDO = true;
             Debug.Log("Start Dialog");
         }
         else
@@ -46,7 +46,7 @@ public class PlayerDialogObject : MonoBehaviour
 
     public void EndDialog()
     {
-        isTalking = false;
+        isTalkingPDO = false;
         Debug.Log("End Dialog");
     }
 

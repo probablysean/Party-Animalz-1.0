@@ -349,8 +349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PDO: {fileID: 0}
-  mainButton: {fileID: 1854094353}
   slide: 0
+  isTalkingDIO: 0
 --- !u!58 &481342458
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1853,7 +1853,7 @@ MonoBehaviour:
   InRadius: 0
   radius: 1
   DIO: {fileID: 0}
-  isTalking: 0
+  isTalkingPDO: 0
   npcLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1994,8 +1994,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 481342457}
-        m_TargetAssemblyTypeName: DialogInteractObject, Assembly-CSharp
+      - m_Target: {fileID: 1948998976}
+        m_TargetAssemblyTypeName: IntroDialog, Assembly-CSharp
         m_MethodName: AddSlide
         m_Mode: 1
         m_Arguments:
@@ -2179,5 +2179,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  image: {fileID: 0}
   mainImage: {fileID: 1125879000}
-  event9: 0
+  mainButton: {fileID: 1854094353}

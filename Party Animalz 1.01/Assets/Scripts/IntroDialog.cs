@@ -11,42 +11,48 @@ public class IntroDialog : MonoBehaviour
     public DialogInteractObject DIO;
     public int slide1;
     public Sprite[] dialogOne;
+    public Sprite image;
     public GameObject mainImage;
-
-    public bool event9 = false;
+    public GameObject mainButton;
 
     // Start is called before the first frame update
     void Start()
     {
         PDO = GameObject.Find("PlayerDialogObject").GetComponent<PlayerDialogObject>();
+        slide1 = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        slide1 = DIO.slide;
+        if (Input.GetKeyDown("e") && PDO.isTalkingPDO == true && DIO.isTalkingDIO == true)
+        {
+            AddSlide();
+        }
+    }
+
+    public void AddSlide()
+    {
+        slide1 += 1;
 
         mainImage.GetComponent<Image>().sprite = dialogOne[slide1];
 
         if(slide1 == 1)
         {
-            //reset events for simple loops at 1
-            event9 = false;
+            mainImage.SetActive(true);
+            mainButton.SetActive(true);
         }
 
-        if(slide1 == 9 && event9 == false)
+        if (slide1 == 9)
         {
+            DIO.EndDialog();
             EndDialog();
-            event9 = true;
         }
     }
 
     void EndDialog()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-
         PDO.EndDialog();
-        DIO.HideButton();
     }
 }
