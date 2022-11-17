@@ -21,6 +21,7 @@ public class LiamDialog : MonoBehaviour
     public bool choices = false;
 
     public bool option1 = true;
+    public bool startedDialog;
 
     void Awake()
     {
@@ -32,8 +33,14 @@ public class LiamDialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("e") && PDO.isTalkingPDO == true && DIO.isTalkingDIO == true && choices == false)
+        if (Input.GetKeyDown("e") && PDO.isTalkingPDO == true  && choices == false)
         {
+            AddSlide();
+        }
+
+        if (PDO.isTalkingPDO == true && startedDialog == false)
+        {
+            startedDialog = true;
             AddSlide();
         }
     }
@@ -41,9 +48,11 @@ public class LiamDialog : MonoBehaviour
     public void AddSlide()
     {
         slide1 += 1;
+        Debug.Log(slide1);
 
         if (option1 == true )
         {
+            StartDialog();
             mainImage.GetComponent<Image>().sprite = dialogOne[slide1];
         }
         else
@@ -77,8 +86,8 @@ public class LiamDialog : MonoBehaviour
 
         if (slide1 == 7 && option1 == false)
         {
-            slide1 = 4;
             EndDialog();
+            slide1 = 4;
         }
 
         if(slide1 == 9)
@@ -89,7 +98,9 @@ public class LiamDialog : MonoBehaviour
 
         if(slide1 == 20)
         {
+            slide1 = 19;
             EndDialog();
+            DIO.CloseDialog();
         }
     }
 
@@ -133,15 +144,22 @@ public class LiamDialog : MonoBehaviour
         SceneManager.LoadScene(5);
     }
 
+    void StartDialog()
+    {
+        Time.timeScale = 0f;
+    }
+
     void EndDialog()
     {
+        Time.timeScale = 1f;
         DIO.EndDialog();
         PDO.EndDialog();
-
         mainButton.SetActive(false);
         mainImage.SetActive(false);
         button1.SetActive(false);
         button2.SetActive(false);
+        startedDialog = false;
     }
+
 
 }

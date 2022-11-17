@@ -11,17 +11,28 @@ public class PlayerDialogObject : MonoBehaviour
     public bool isTalkingPDO = false;
     public LayerMask npcLayer;
     public Transform playerCenter;
+    public bool talkingTimer;
+
+    public CheckPointManager CPM;
+
+    private void Start()
+    {
+        talkingTimer = true;
+        CheckDialogRadius();
+    }
 
     void Update()
     {
-        if(Input.GetKey("e") && isTalkingPDO == false)
+        if(Input.GetKeyDown("e") && isTalkingPDO == false && talkingTimer == true)
         {
+            talkingTimer = false;
             CheckDialogRadius();
         }
     }
 
     public void CheckDialogRadius()
     {
+        
         //Check Radius later
         //DIO = GameObject.Find("DialogInteractObject").GetComponent<DialogInteractObject>();
 
@@ -47,7 +58,14 @@ public class PlayerDialogObject : MonoBehaviour
     public void EndDialog()
     {
         isTalkingPDO = false;
-        Debug.Log("End Dialog");
+        StartCoroutine("StartTimer");
+        //Debug.Log("End Dialog");
+    }
+
+    IEnumerator StartTimer()
+    {
+        yield return new WaitForSeconds(1);
+        talkingTimer = true;
     }
 
     void OnDrawGizmosSelected()
@@ -57,5 +75,4 @@ public class PlayerDialogObject : MonoBehaviour
 
         Gizmos.DrawWireSphere(playerCenter.position, radius);
     }
-
 }

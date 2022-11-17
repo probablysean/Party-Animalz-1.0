@@ -24,7 +24,7 @@ public class IntroDialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("e") && PDO.isTalkingPDO == true && DIO.isTalkingDIO == true)
+        if (Input.GetKeyDown("e") && PDO.isTalkingPDO == true)
         {
             AddSlide();
         }
