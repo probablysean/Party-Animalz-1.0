@@ -48,9 +48,9 @@ public class LiamDialog : MonoBehaviour
         }
         else
         {
-            if(slide1 >= 5)
+            if(slide1 >= 6)
             {
-                mainImage.GetComponent<Image>().sprite = dialogTwo[slide1 - 5];
+                mainImage.GetComponent<Image>().sprite = dialogTwo[slide1 - 6];
             }
             else
             {
@@ -64,20 +64,31 @@ public class LiamDialog : MonoBehaviour
             mainButton.SetActive(true);
         }
 
-        if (slide1 == 4)
+        if (slide1 == 5)
         {
             Choices();
         }
         
-        if(slide1 == 6 && option1 == true)
+        if(slide1 == 7 && option1 == true)
         {
-            slide1 = 3;
+            slide1 = 8;
             LoadTrainingScene();
         }
 
-        if (slide1 == 6 && option1 == false)
+        if (slide1 == 7 && option1 == false)
         {
-            slide1 = 3;
+            slide1 = 4;
+            EndDialog();
+        }
+
+        if(slide1 == 9)
+        {
+            mainImage.SetActive(true);
+            mainButton.SetActive(true);
+        }
+
+        if(slide1 == 20)
+        {
             EndDialog();
         }
     }

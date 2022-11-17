@@ -2947,14 +2947,28 @@ MonoBehaviour:
   slide1: 0
   dialogOne:
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
-  - {fileID: 21300000, guid: 165110d308b89d84984f3b2279934ce6, type: 3}
-  - {fileID: 21300000, guid: 2dec0635968d4e349a991055e75eb651, type: 3}
-  - {fileID: 21300000, guid: dc8fadc2a2def2b4dbc35a8ed6c1535e, type: 3}
-  - {fileID: 21300000, guid: 97ffdb5ab2ce3b3458f6db7d79b17e29, type: 3}
-  - {fileID: 21300000, guid: bb45252beeeac9a4e8e6b203b839a097, type: 3}
+  - {fileID: 21300000, guid: 2a70fb5ec60545b4e942b678bfc28a39, type: 3}
+  - {fileID: 21300000, guid: 9c19bb88d1ff1d54985d06e19a93c080, type: 3}
+  - {fileID: 21300000, guid: 50350dc437f3d2547baf68d92761c4f5, type: 3}
+  - {fileID: 21300000, guid: 35435c1000622ab48b3b74046a02ad40, type: 3}
+  - {fileID: 21300000, guid: faea680b7177f4c45ac9e25e605ac1a7, type: 3}
+  - {fileID: 21300000, guid: 96cb637d7d67a4f449f29daa3b3661fe, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  - {fileID: 21300000, guid: 0e2398caceb1a4c44bd915f0737e536d, type: 3}
+  - {fileID: 21300000, guid: 2249d12da7d0e604fbca1d55ab6e9c89, type: 3}
+  - {fileID: 21300000, guid: 20973bbbaccc10344a3f5ce10d6fd515, type: 3}
+  - {fileID: 21300000, guid: 9e94289cd385601498549eb67873fb94, type: 3}
+  - {fileID: 21300000, guid: 22bf50c0abf4b8f4ca84c2d5690e00f0, type: 3}
+  - {fileID: 21300000, guid: 55d1ca058543dd242b530f8d8e9dd730, type: 3}
+  - {fileID: 21300000, guid: 622b4a3f6a5701c4ca1be073fd0d92b4, type: 3}
+  - {fileID: 21300000, guid: cbfc651879b214e4783516ce66361df1, type: 3}
+  - {fileID: 21300000, guid: 6149363646762ec48ac4bc5c9685deca, type: 3}
+  - {fileID: 21300000, guid: d1654333ef4188d49a6644e7547ffc02, type: 3}
+  - {fileID: 21300000, guid: 6388ce185549d9743a8528dff0dee70b, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   dialogTwo:
-  - {fileID: 21300000, guid: fcee7bb9deb496545b3af75ae9090e63, type: 3}
+  - {fileID: 21300000, guid: a81891e0d19fdb6428fd36da4e841185, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
@@ -3081,8 +3095,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -636.7495, y: 120.000916}
-  m_SizeDelta: {x: 300, y: 100}
+  m_AnchoredPosition: {x: -585, y: 135}
+  m_SizeDelta: {x: 800, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1186225202
 MonoBehaviour:
@@ -3160,7 +3174,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 020a3c2c71bb68245bb31c868253b06e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3750,7 +3764,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PDO: {fileID: 0}
-  slide: 0
   isTalkingDIO: 0
 --- !u!58 &1477010634
 CircleCollider2D:
@@ -7289,7 +7302,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -7571,8 +7584,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -636.7495, y: 264.7511}
-  m_SizeDelta: {x: 300, y: 100}
+  m_AnchoredPosition: {x: -585, y: 360}
+  m_SizeDelta: {x: 800, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1828847709
 MonoBehaviour:
@@ -7650,7 +7663,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b9f2d7834fbef574fb5b2fb4472ed119, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 654c0895a8ed99c4d9d638ebc406f8c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

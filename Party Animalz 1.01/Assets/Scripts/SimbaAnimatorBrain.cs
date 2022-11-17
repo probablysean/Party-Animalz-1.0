@@ -33,25 +33,25 @@ public class SimbaAnimatorBrain : MonoBehaviour
         }
         #endregion
 
-        if (Input.GetKeyDown("s"))
+        if (Input.GetKey("s"))
         {
             yAxis = -1;
             xAxis = 0;
         }
 
-        if (Input.GetKeyDown("w"))
+        if (Input.GetKey("w"))
         {
             yAxis = 1;
             xAxis = 0;
         }
 
-        if (Input.GetKeyDown("d"))
+        if (Input.GetKey("d"))
         {
             xAxis = 1;
             yAxis = 0;
         }
 
-        if (Input.GetKeyDown("a"))
+        if (Input.GetKey("a"))
         {
             xAxis = -1;
             yAxis = 0;
