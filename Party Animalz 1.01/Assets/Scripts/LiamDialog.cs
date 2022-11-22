@@ -33,12 +33,12 @@ public class LiamDialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("e") && PDO.isTalkingPDO == true  && choices == false)
+        if (Input.GetKeyDown("e") && DIO.isTalkingDIO == true  && choices == false)
         {
             AddSlide();
         }
 
-        if (PDO.isTalkingPDO == true && startedDialog == false)
+        if (DIO.isTalkingDIO == true && startedDialog == false)
         {
             startedDialog = true;
             AddSlide();
