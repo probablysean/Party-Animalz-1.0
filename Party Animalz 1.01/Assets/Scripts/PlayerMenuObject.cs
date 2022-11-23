@@ -8,13 +8,8 @@ public class PlayerMenuObject : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject pauseButton;
     public AudioSource audio1;
-    public float slowTrack = 0.6f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -34,7 +29,7 @@ public class PlayerMenuObject : MonoBehaviour
             Debug.Log("game is paused");
             pauseMenu.SetActive(true);
             pauseButton.SetActive(false);
-            audio1.pitch = slowTrack;
+            audio1.Pause();
         }
         else
         {
@@ -43,7 +38,7 @@ public class PlayerMenuObject : MonoBehaviour
             Debug.Log("game is playing");
             pauseMenu.SetActive(false);
             pauseButton.SetActive(true);
-            audio1.pitch = 1f;
+            audio1.Play();
         }
     }
 }

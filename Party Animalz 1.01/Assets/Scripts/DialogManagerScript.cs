@@ -5,17 +5,25 @@ using UnityEngine.UI;
 
 public class DialogManagerScript : MonoBehaviour
 {
-    public Sprite[] currentDialog;
-    public TestDialogScript currentDialogScript;
-    public PlayerDialogObject playerDialogObject;
+
     public int currentSlide;
     public bool isTalking = false;
     public int conversationSize;
-    public bool branches;
+    public bool branches = false;
+    public int branchIndex = 0;
+
+    //Blanks for button and dialog array
     public Sprite[] currentButtons;
+    public Sprite[] currentDialog;
+
+    //Button References
     public GameObject button1;
     public GameObject button2;
-    public GameObject button3;
+    public GameObject mainButton;
+
+    //Script References
+    public TestDialogScript currentDialogScript;
+    public PlayerDialogObject playerDialogObject;
 
 
     //find player object to use for radius detection later
@@ -45,14 +53,15 @@ public class DialogManagerScript : MonoBehaviour
         currentSlide = 0;
 
         //call player object to check for radius of script or npc's
-        currentDialogScript = playerDialogObject.CheckDialogRadius();
+        //currentDialogScript = playerDialogObject.CheckDialogRadius();
 
         if (currentDialogScript != null)
         {
             //start dialog and find the total slide length
             Debug.Log("Dialog Started");
             isTalking = true;
-            
+
+            mainButton.SetActive(true);
 
             currentDialog = currentDialogScript.SendDialog();
 
@@ -73,7 +82,7 @@ public class DialogManagerScript : MonoBehaviour
     {
         this.GetComponent<Image>().sprite = currentDialog[currentSlide];
 
-        currentSlide = currentSlide + 1;
+        currentSlide += 1;
 
         if(currentSlide == conversationSize)
         {
@@ -85,17 +94,18 @@ public class DialogManagerScript : MonoBehaviour
     public void EndDialog()
     {
         //Check for Branches
-        branches = currentDialogScript.CheckBranches();
+        branchIndex = currentDialogScript.CheckBranches();
 
         currentSlide = 0;
 
-        if (branches == false)
+        if (branchIndex == 0)
         {
             //close dialog
             Time.timeScale = 1f;
             conversationSize = 100;
             currentSlide = 0;
             isTalking = false;
+            mainButton.SetActive(false);
             Debug.Log("Dialog Ended");
         }
         else
@@ -103,31 +113,55 @@ public class DialogManagerScript : MonoBehaviour
             //open buttons
             currentButtons = currentDialogScript.GetButtons();
 
-            //3 Buttons
-            if(currentButtons.Length == 3)
-            {
-                button1.SetActive(true);
-                button1.GetComponent<Image>().sprite = currentButtons[0];
-
-                button2.SetActive(true);
-                button2.GetComponent<Image>().sprite = currentButtons[1];
-
-                button3.SetActive(true);
-                button3.GetComponent<Image>().sprite = currentButtons[2];
-            }
-
             //2 Buttons
-            if (currentButtons.Length == 2)
-            {
-                button1.SetActive(true);
-                button1.GetComponent<Image>().sprite = currentButtons[0];
 
-                button2.SetActive(true);
-                button2.GetComponent<Image>().sprite = currentButtons[1];
-            }
+            button1.SetActive(true);
+            button1.GetComponent<Image>().sprite = currentButtons[0];
+
+            button2.SetActive(true);
+            button2.GetComponent<Image>().sprite = currentButtons[1];
+
+            mainButton.SetActive(false);
 
         }
       
+    }
+
+    public void Branches1()
+    {
+        //Set new current dialog as the branch we need
+
+        currentDialogScript.SetBranch1();
+
+        SetupNextBranch();
+    }
+
+    public void Branches2()
+    {
+        currentDialogScript.SetBranch2();
+
+        SetupNextBranch();
+    }
+
+    public void SetupNextBranch()
+    {
+        //Get the branch 1 array  which is now current dialog
+
+        currentDialog = currentDialogScript.SendDialog();
+
+        //Call IsTalkingNow() to play the next dialog
+
+        IsTalkingNow();
+
+        mainButton.SetActive(true);
+
+        //Turn buttons off
+
+        button1.SetActive(false);
+        button2.SetActive(false);
+
+        conversationSize = currentDialog.Length;
+        //Setup the conditions if there is another branch
     }
 
 

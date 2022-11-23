@@ -5,26 +5,57 @@ using UnityEngine.UI;
 
 public class PlayerDialogObject : MonoBehaviour
 {
-    public DialogManagerScript dialogManagerScript;
     public bool InRadius;
-    public TestDialogScript currentDialogScript1;
+    public float radius;
+    public DialogInteractObject DIO;
+    public bool isTalkingPDO = false;
+    public LayerMask npcLayer;
+    public Transform playerCenter;
 
-    // Start is called before the first frame update
-    void Start()
+    void Update()
     {
-        dialogManagerScript = GameObject.Find("Dialog Manager").GetComponent<DialogManagerScript>();
-       
+        if(Input.GetKey("e") && isTalkingPDO == false)
+        {
+            CheckDialogRadius();
+        }
     }
 
-
-
-    public TestDialogScript CheckDialogRadius()
+    public void CheckDialogRadius()
     {
-        //replace with radius check later
-        currentDialogScript1 = GameObject.Find("TestDialog").GetComponent<TestDialogScript>();
+        //Check Radius later
+        //DIO = GameObject.Find("DialogInteractObject").GetComponent<DialogInteractObject>();
 
-        //return currentDialogScript;
-        return currentDialogScript1;
+        Collider2D[] npcs = Physics2D.OverlapCircleAll(playerCenter.position, radius, npcLayer);
+
+        foreach(Collider2D npc in npcs)
+        {
+            DIO = npc.GetComponent<DialogInteractObject>();
+        }
+
+        if(DIO != null)
+        {
+            DIO.StartDialog();
+            isTalkingPDO = true;
+            Debug.Log("Start Dialog");
+        }
+        else
+        {
+            Debug.Log("No NPC's in radius");
+        }
+    }
+
+    public void EndDialog()
+    {
+        isTalkingPDO = false;
+        Debug.Log("End Dialog");
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (playerCenter == null)
+            return;
+
+        Gizmos.DrawWireSphere(playerCenter.position, radius);
     }
 
 }
