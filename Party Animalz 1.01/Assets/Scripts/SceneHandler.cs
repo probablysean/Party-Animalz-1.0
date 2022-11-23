@@ -30,7 +30,7 @@ public class SceneHandler
 
         //liam
         GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1 = liamDialogSlide;
-        //Debug.Log(GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1);
+        Debug.Log(GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1);
     }
 
 }

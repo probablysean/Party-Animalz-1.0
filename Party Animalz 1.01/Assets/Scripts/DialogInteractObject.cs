@@ -13,7 +13,6 @@ public class DialogInteractObject : MonoBehaviour
     void Start()
     { 
         PDO = GameObject.Find("PlayerDialogObject").GetComponent<PlayerDialogObject>();
-        isTalkingDIO = false;
     }
 
     public void StartDialog()
@@ -26,10 +25,6 @@ public class DialogInteractObject : MonoBehaviour
     {
         Time.timeScale = 1f;
         isTalkingDIO = false;
-    }
-    public void CloseDialog()
-    {
-        Destroy(this);
     }
 
 }

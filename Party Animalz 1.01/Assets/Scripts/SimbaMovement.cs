@@ -23,25 +23,25 @@ public class SimbaMovement : MonoBehaviour
             movement.y = 0;
         }
 
-        if (Input.GetKey("s"))
+        if (Input.GetKeyDown("s"))
         {
             movement.y = -1;
             movement.x = 0;
         }
 
-        if (Input.GetKey("w"))
+        if (Input.GetKeyDown("w"))
         {
             movement.y = 1;
             movement.x = 0;
         }
 
-        if (Input.GetKey("d"))
+        if (Input.GetKeyDown("d"))
         {
             movement.x = 1;
             movement.y = 0;
         }
 
-        if (Input.GetKey("a"))
+        if (Input.GetKeyDown("a"))
         {
             movement.x = -1;
             movement.y = 0;

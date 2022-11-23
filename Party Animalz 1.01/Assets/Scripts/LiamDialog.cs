@@ -21,7 +21,6 @@ public class LiamDialog : MonoBehaviour
     public bool choices = false;
 
     public bool option1 = true;
-    public bool startedDialog;
 
     void Awake()
     {
@@ -33,14 +32,8 @@ public class LiamDialog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("e") && DIO.isTalkingDIO == true  && choices == false)
+        if (Input.GetKeyDown("e") && PDO.isTalkingPDO == true && DIO.isTalkingDIO == true && choices == false)
         {
-            AddSlide();
-        }
-
-        if (DIO.isTalkingDIO == true && startedDialog == false)
-        {
-            startedDialog = true;
             AddSlide();
         }
     }
@@ -48,18 +41,16 @@ public class LiamDialog : MonoBehaviour
     public void AddSlide()
     {
         slide1 += 1;
-        Debug.Log(slide1);
 
         if (option1 == true )
         {
-            StartDialog();
             mainImage.GetComponent<Image>().sprite = dialogOne[slide1];
         }
         else
         {
-            if(slide1 >= 6)
+            if(slide1 >= 5)
             {
-                mainImage.GetComponent<Image>().sprite = dialogTwo[slide1 - 6];
+                mainImage.GetComponent<Image>().sprite = dialogTwo[slide1 - 5];
             }
             else
             {
@@ -73,34 +64,21 @@ public class LiamDialog : MonoBehaviour
             mainButton.SetActive(true);
         }
 
-        if (slide1 == 5)
+        if (slide1 == 4)
         {
             Choices();
         }
         
-        if(slide1 == 7 && option1 == true)
+        if(slide1 == 6 && option1 == true)
         {
-            slide1 = 8;
+            slide1 = 3;
             LoadTrainingScene();
         }
 
-        if (slide1 == 7 && option1 == false)
+        if (slide1 == 6 && option1 == false)
         {
+            slide1 = 3;
             EndDialog();
-            slide1 = 4;
-        }
-
-        if(slide1 == 9)
-        {
-            mainImage.SetActive(true);
-            mainButton.SetActive(true);
-        }
-
-        if(slide1 == 20)
-        {
-            slide1 = 19;
-            EndDialog();
-            DIO.CloseDialog();
         }
     }
 
@@ -144,22 +122,15 @@ public class LiamDialog : MonoBehaviour
         SceneManager.LoadScene(5);
     }
 
-    void StartDialog()
-    {
-        Time.timeScale = 0f;
-    }
-
     void EndDialog()
     {
-        Time.timeScale = 1f;
         DIO.EndDialog();
         PDO.EndDialog();
+
         mainButton.SetActive(false);
         mainImage.SetActive(false);
         button1.SetActive(false);
         button2.SetActive(false);
-        startedDialog = false;
     }
-
 
 }
