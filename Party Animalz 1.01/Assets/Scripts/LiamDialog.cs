@@ -22,6 +22,9 @@ public class LiamDialog : MonoBehaviour
     public bool dialogStarted;
     public bool option1 = true;
 
+    public GameObject canUp;
+    public GameObject canDown;
+
     void Awake()
     {
         PDO = GameObject.Find("PlayerDialogObject").GetComponent<PlayerDialogObject>();
@@ -96,6 +99,8 @@ public class LiamDialog : MonoBehaviour
 
         if (slide1 == 20)
         {
+            canUp.SetActive(false);
+            canDown.SetActive(true);
             EndDialog();
             DIO.CloseDialog();
         }
