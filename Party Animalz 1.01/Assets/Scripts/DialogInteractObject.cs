@@ -8,6 +8,7 @@ public class DialogInteractObject : MonoBehaviour
 
     public PlayerDialogObject PDO;
     public bool isTalkingDIO;
+    public GameObject dialogArrow;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +31,7 @@ public class DialogInteractObject : MonoBehaviour
     public void CloseDialog()
     {
         this.gameObject.layer = 0;
-        
+        dialogArrow.SetActive(false);
     }
 
 }

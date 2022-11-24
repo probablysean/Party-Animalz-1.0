@@ -101,6 +101,7 @@ public class LiamDialog : MonoBehaviour
         {
             canUp.SetActive(false);
             canDown.SetActive(true);
+
             EndDialog();
             DIO.CloseDialog();
         }
