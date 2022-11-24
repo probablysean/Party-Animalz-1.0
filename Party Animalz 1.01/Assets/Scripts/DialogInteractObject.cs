@@ -27,5 +27,11 @@ public class DialogInteractObject : MonoBehaviour
         isTalkingDIO = false;
     }
 
+    public void CloseDialog()
+    {
+        this.gameObject.layer = 0;
+        
+    }
+
 }
 

@@ -3078,6 +3078,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d1654333ef4188d49a6644e7547ffc02, type: 3}
   - {fileID: 21300000, guid: 6388ce185549d9743a8528dff0dee70b, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
+  - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
   dialogTwo:
   - {fileID: 21300000, guid: a81891e0d19fdb6428fd36da4e841185, type: 3}
   - {fileID: 21300000, guid: 95877d3aa8488d448938302b0d85c52a, type: 3}
@@ -3089,6 +3090,7 @@ MonoBehaviour:
   button1: {fileID: 1828847707}
   button2: {fileID: 1186225200}
   choices: 0
+  dialogStarted: 0
   option1: 0
 --- !u!1 &1156238680
 GameObject:
@@ -6403,6 +6405,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   playerCenter: {fileID: 1647560595}
+  canTalk: 0
 --- !u!1 &1653155486
 GameObject:
   m_ObjectHideFlags: 0
