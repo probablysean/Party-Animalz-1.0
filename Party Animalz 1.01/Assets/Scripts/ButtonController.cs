@@ -11,6 +11,7 @@ public class ButtonController : MonoBehaviour
     public Sprite activeImage;
 
     public KeyCode keyToPress;
+    public KeyCode keyToPress2;
 
     // Start is called before the first frame update
 
@@ -18,12 +19,12 @@ public class ButtonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(keyToPress))
+        if(Input.GetKeyDown(keyToPress) || Input.GetKeyDown(keyToPress2))
         {
             image.GetComponent<Image>().sprite = activeImage;
         }
 
-        if (Input.GetKeyUp(keyToPress))
+        if (Input.GetKeyUp(keyToPress) || Input.GetKeyUp(keyToPress2))
         {
             image.GetComponent<Image>().sprite = defaultImage;
         }

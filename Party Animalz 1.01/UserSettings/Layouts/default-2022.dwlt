@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -213,8 +213,8 @@ MonoBehaviour:
     y: 0
     width: 236
     height: 671
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -267,8 +267,8 @@ MonoBehaviour:
     y: 671
     width: 1179
     height: 276
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -345,8 +345,8 @@ MonoBehaviour:
     y: 407
     width: 741
     height: 540
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -486,21 +486,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b2aeffff7cb4ffff26fbffff005f0000d85f000022600000
+      m_ExpandedIDs: d2b6ffff7cf9ffff28fbffff62680000e6680000c4b40000f6b80000caba0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Down
+        m_OriginalName: Down
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 26732
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -812,7 +812,7 @@ MonoBehaviour:
       containerId: overlay-toolbar__left
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -829,9 +829,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.34923398, y: 3.3844128, z: 0.031606182}
+    m_Target: {x: 20.23357, y: 305.77176, z: -0.18366614}
     speed: 2
-    m_Value: {x: -0.39200452, y: 3.4280744, z: 0.028826097}
+    m_Value: {x: 19.124882, y: 303.77844, z: -0.15956075}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -881,9 +881,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.899953
+    m_Target: 55.977825
     speed: 2
-    m_Value: 6.1779613
+    m_Value: 53.567295
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -966,7 +966,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 24610
+  m_LastSelectedObjectID: 26256
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1008,22 +1008,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Templates
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 85
   m_LastFolders:
-  - Assets/Templates
+  - Assets/Scenes
   m_LastFoldersGridSize: 85
   m_LastProjectPath: D:\Unity\Github test 9-25\Party-Animalz-1.0\Party Animalz 1.01
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9c620000
-    m_LastClickedID: 25244
-    m_ExpandedIDs: 000000005462000056620000
+    m_SelectedIDs: 16630000
+    m_LastClickedID: 25366
+    m_ExpandedIDs: 00000000d4620000d6620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1051,7 +1051,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005462000056620000
+    m_ExpandedIDs: 00000000d4620000d6620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

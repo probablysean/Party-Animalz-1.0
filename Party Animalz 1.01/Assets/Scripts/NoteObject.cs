@@ -8,6 +8,7 @@ public class NoteObject : MonoBehaviour
     public bool canBePressed;
 
     public KeyCode keyToPress;
+    public KeyCode keyToPress2;
 
     private bool obtained = false;
 
@@ -22,7 +23,7 @@ public class NoteObject : MonoBehaviour
     {
         //Debug.Log(transform.position.y);
 
-        if(Input.GetKeyDown(keyToPress))
+        if(Input.GetKeyDown(keyToPress) || Input.GetKeyDown(keyToPress2))
         {
             if(canBePressed == true)
             {
