@@ -105,8 +105,6 @@ public class LiamDialog : MonoBehaviour
             EndDialog();
             DIO.CloseDialog();
         }
-
-
     }
 
 
