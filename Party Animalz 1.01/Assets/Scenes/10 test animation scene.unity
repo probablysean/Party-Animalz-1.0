@@ -123,9 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
---- !u!1 &1528461430
-========
 --- !u!1 &28466302
 GameObject:
   m_ObjectHideFlags: 0
@@ -3197,7 +3194,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 1186225200}
   m_CullTransparentMesh: 1
 --- !u!1 &1214579137
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3205,17 +3201,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
-  - component: {fileID: 1528461433}
-  - component: {fileID: 1528461432}
-  - component: {fileID: 1528461431}
-  m_Layer: 0
-========
   - component: {fileID: 1214579140}
   - component: {fileID: 1214579139}
   - component: {fileID: 1214579138}
   m_Layer: 3
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -3279,9 +3268,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
-  m_GameObject: {fileID: 1528461430}
-========
   m_GameObject: {fileID: 1214579137}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.16574666, z: -10}
@@ -3486,7 +3472,6 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290541021}
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 7, y: 4, z: 1}
@@ -7303,9 +7288,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
---- !u!1 &1964127085
-========
 --- !u!82 &1691447420
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7416,7 +7398,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volumeSlider: {fileID: 877732354}
 --- !u!1 &1717102997
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7424,28 +7405,16 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
-  - component: {fileID: 1964127087}
-  - component: {fileID: 1964127086}
-  - component: {fileID: 1964127088}
-  - component: {fileID: 1964127089}
-  m_Layer: 0
-  m_Name: Simba
-========
   - component: {fileID: 1717102998}
   - component: {fileID: 1717103000}
   - component: {fileID: 1717102999}
   m_Layer: 5
   m_Name: Handle
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
---- !u!212 &1964127086
-========
 --- !u!224 &1717102998
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7893,17 +7862,12 @@ CanvasRenderer:
   m_GameObject: {fileID: 1863036174}
   m_CullTransparentMesh: 1
 --- !u!212 &1863036177
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
-  m_GameObject: {fileID: 1964127085}
-========
   m_GameObject: {fileID: 1863036174}
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -7937,15 +7901,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a322c75d73bd64846abce2bc28628e69, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-========
   m_SortingOrder: 10
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.02352941, g: 0.9629075, b: 1, a: 1}
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7955,29 +7913,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
---- !u!4 &1964127087
-Transform:
-========
 --- !u!1 &2021267888
 GameObject:
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
-  m_GameObject: {fileID: 1964127085}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1964127088
-========
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2021267892}
@@ -8008,18 +7949,13 @@ MonoBehaviour:
   xAxis: 0
   moving: 0
 --- !u!95 &2021267890
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
-  m_GameObject: {fileID: 1964127085}
-========
   m_GameObject: {fileID: 2021267888}
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4fcb98b7da8914b40b164d89dd2a2ee0, type: 2}
@@ -8032,9 +7968,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
---- !u!114 &1964127089
-========
 --- !u!212 &2021267891
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8500,24 +8433,11 @@ RectTransform:
   m_SizeDelta: {x: 850, y: 650}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2135203124
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Party Animalz 1.01/Assets/Scenes/10 test animation scene.unity
-  m_GameObject: {fileID: 1964127085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e20649c06883614a9670938615860a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  simbaAnimator: {fileID: 1964127088}
-  yAxis: 0
-  xAxis: 0
-  moving: 0
-========
   m_GameObject: {fileID: 2135203122}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -8550,4 +8470,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135203122}
   m_CullTransparentMesh: 1
->>>>>>>> cdd8a1bfeca95477b6a7a8696b8fce2fd040fa87:Party Animalz 1.01/Assets/Scenes/2 movement.unity
