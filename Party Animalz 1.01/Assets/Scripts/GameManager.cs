@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public bool startPlaying;
 
     public BeatScroller beatScroller;
+    public BeatScroller beatScroller2;
 
     public static GameManager instance;
 
@@ -59,6 +60,7 @@ public class GameManager : MonoBehaviour
             {
                 startPlaying = true;
                 beatScroller.hasStarted = true;
+                beatScroller2.hasStarted = true;
 
                 theMusic.Play();
             }
