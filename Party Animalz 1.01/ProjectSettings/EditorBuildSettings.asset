@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/2 movement.unity
     guid: 6fdcd102f4129754785f092fe3dd37ea
   - enabled: 1
-    path: Assets/Scenes/3 Rythm game.unity
+    path: Assets/Scenes/3 rhythm game.unity
     guid: ee227e16db49534499c36187b92e80dc
   - enabled: 1
     path: Assets/Scenes/4 Exit.unity

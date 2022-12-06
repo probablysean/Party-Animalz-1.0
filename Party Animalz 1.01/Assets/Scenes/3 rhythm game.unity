@@ -20610,6 +20610,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538291012}
   m_CullTransparentMesh: 1
+--- !u!1 &1570075018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1570075020}
+  - component: {fileID: 1570075019}
+  m_Layer: 0
+  m_Name: filler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1570075019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570075018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ecd3609f5fca784384c45937a74d37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatTempo: 0
+  tempoConstant: 1
+  hasStarted: 0
+--- !u!4 &1570075020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570075018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.029681493, y: 1.8790361, z: 0.82949996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1602070268
 GameObject:
   m_ObjectHideFlags: 0
@@ -23298,6 +23345,7 @@ MonoBehaviour:
   theMusic: {fileID: 682466429}
   startPlaying: 0
   beatScroller: {fileID: 562730561}
+  beatScroller2: {fileID: 1570075019}
   scoreText: {fileID: 1607295345}
   multiText: {fileID: 364496011}
   currentScore: 0
