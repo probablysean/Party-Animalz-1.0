@@ -50,6 +50,7 @@ public class SitchAndAdamDialog : MonoBehaviour
     public void AddSlide()
     {
         slide1 += 1;
+        Debug.Log(slide1);
 
         if (option1 == true)
         {
