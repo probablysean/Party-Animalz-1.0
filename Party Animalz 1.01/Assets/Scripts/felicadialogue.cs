@@ -10,29 +10,36 @@ public class felicadialogue : MonoBehaviour
     public DialogInteractObject DIO;
     public int slide1;
     public Sprite[] dialogOne;
+    public Sprite[] dialogTwo;
     public GameObject mainImage;
-    private Sprite image;
+    public Sprite image;
     public GameObject mainButton;
+    public GameObject button1;
+    public GameObject button2;
 
     public SceneHandler sceneHandler;
+    public bool choices = false;
     public bool dialogStarted;
+    public bool option1 = true;
+
 
 
     void Awake()
     {
         PDO = GameObject.Find("PlayerDialogObject").GetComponent<PlayerDialogObject>();
+        option1 = true;
+        choices = false;
         dialogStarted = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("e") && DIO.isTalkingDIO == true && dialogStarted == true)
+        if (Input.GetKeyDown("e") && DIO.isTalkingDIO == true && choices == false)
         {
             AddSlide();
         }
 
-        //start dialog skip bug correction
         if (DIO.isTalkingDIO == true && dialogStarted == false)
         {
             dialogStarted = true;
@@ -43,8 +50,23 @@ public class felicadialogue : MonoBehaviour
     public void AddSlide()
     {
         slide1 += 1;
+        Debug.Log(slide1);
 
-        mainImage.GetComponent<Image>().sprite = dialogOne[slide1];
+        if (option1 == true)
+        {
+            mainImage.GetComponent<Image>().sprite = dialogOne[slide1];
+        }
+        else
+        {
+            if (slide1 >= 3)
+            {
+                mainImage.GetComponent<Image>().sprite = dialogTwo[slide1 - 3];
+            }
+            else
+            {
+                mainImage.GetComponent<Image>().sprite = dialogOne[slide1];
+            }
+        }
 
         if (slide1 == 1)
         {
@@ -52,12 +74,75 @@ public class felicadialogue : MonoBehaviour
             mainButton.SetActive(true);
         }
 
-        if (slide1 == 3)
+        if (slide1 == 2)
+        {
+            Choices();
+        }
+
+        if (slide1 == 4 && option1 == true)
+        {
+            slide1 = 5;
+            LoadMusicScene();
+        }
+
+        if (slide1 == 4 && option1 == false)
+        {
+            slide1 = 1;
+            EndDialog();
+        }
+
+        if (slide1 == 6)
+        {
+            mainImage.SetActive(true);
+            mainButton.SetActive(true);
+        }
+
+        if (slide1 == 7)
         {
             EndDialog();
             DIO.CloseDialog();
         }
-    }    
+
+    }
+
+    void LoadMusicScene()
+    {
+        Time.timeScale = 1f;
+
+        SceneHandler.SavePlayer();
+
+        SceneManager.LoadScene(6);
+    }
+
+    public void Choices()
+    {
+        mainImage.SetActive(true);
+        button1.SetActive(true);
+        button2.SetActive(true);
+        mainButton.SetActive(false);
+        choices = true;
+    }
+
+    public void EndChoices()
+    {
+        mainButton.SetActive(true);
+        button1.SetActive(false);
+        button2.SetActive(false);
+        AddSlide();
+        choices = false;
+    }
+
+    public void Button1()
+    {
+        option1 = true;
+        EndChoices();
+    }
+
+    public void Button2()
+    {
+        option1 = false;
+        EndChoices();
+    }
 
     void EndDialog()
     {
@@ -66,6 +151,8 @@ public class felicadialogue : MonoBehaviour
 
         mainButton.SetActive(false);
         mainImage.SetActive(false);
+        button1.SetActive(false);
+        button2.SetActive(false);
 
         dialogStarted = false;
     }

@@ -79,18 +79,29 @@ public class BladeDialog : MonoBehaviour
             Choices();
         }
 
-        if (slide1 == 3 && option1 == true)
+        if (slide1 == 4 && option1 == true)
         {
+            slide1 = 5;
             LoadMusicScene();
-
         }
 
-        if (slide1 == 3 && option1 == false)
+        if (slide1 == 4 && option1 == false)
         {
-            slide1 = 2;
+            slide1 = 1;
             EndDialog();
         }
 
+        if (slide1 == 6)
+        {
+            mainImage.SetActive(true);
+            mainButton.SetActive(true);
+        }
+
+        if (slide1 == 7)
+        {
+            EndDialog();
+            DIO.CloseDialog();
+        }
     }
 
     void LoadMusicScene()

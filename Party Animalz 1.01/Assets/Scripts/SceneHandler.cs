@@ -11,6 +11,8 @@ public class SceneHandler
     public static Vector2 savedPosition;
 
     public static int liamDialogSlide;
+    public static int felicaDialogSlide;
+    public static int bladeDialogSlide;
 
     public static void SavePlayer()
     {
@@ -19,6 +21,12 @@ public class SceneHandler
 
         //liam
         liamDialogSlide = GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1;
+
+        //Felica
+        felicaDialogSlide = GameObject.Find("FelicaDialog").GetComponent<felicadialogue>().slide1;
+
+        //Blade
+        bladeDialogSlide = GameObject.Find("BladeDialog").GetComponent<BladeDialog>().slide1;
     }
 
     public static void LoadPlayer()
@@ -31,6 +39,14 @@ public class SceneHandler
         //liam
         GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1 = liamDialogSlide;
         Debug.Log(GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1);
+
+        //Felica
+        GameObject.Find("FelicaDialog").GetComponent<felicadialogue>().slide1 = felicaDialogSlide;
+        Debug.Log(GameObject.Find("FelicaDialog").GetComponent<felicadialogue>().slide1);
+
+        //Blade
+        GameObject.Find("BladeDialog").GetComponent<BladeDialog>().slide1 = bladeDialogSlide;
+        Debug.Log(GameObject.Find("BladeDialog").GetComponent<BladeDialog>().slide1);
     }
 
 }
