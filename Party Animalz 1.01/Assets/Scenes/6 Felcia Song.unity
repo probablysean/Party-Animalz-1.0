@@ -233,7 +233,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &6822581
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,7 +457,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &38183540
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,7 +681,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &44408001
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,7 +792,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &55322092
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,7 +903,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &65760006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1240,7 +1240,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &86200208
 GameObject:
   m_ObjectHideFlags: 0
@@ -1931,7 +1931,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &154903344
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,7 +2155,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &159003697
 GameObject:
   m_ObjectHideFlags: 0
@@ -2379,7 +2379,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &160880436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,7 +2869,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &184418458
 GameObject:
   m_ObjectHideFlags: 0
@@ -3060,7 +3060,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &187927379
 GameObject:
   m_ObjectHideFlags: 0
@@ -3171,7 +3171,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &191263350
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,7 +3510,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &207253118
 GameObject:
   m_ObjectHideFlags: 0
@@ -3621,7 +3621,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &208511091
 GameObject:
   m_ObjectHideFlags: 0
@@ -3845,7 +3845,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &209379335
 GameObject:
   m_ObjectHideFlags: 0
@@ -3956,7 +3956,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &216012909
 GameObject:
   m_ObjectHideFlags: 0
@@ -4369,7 +4369,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &228938037
 GameObject:
   m_ObjectHideFlags: 0
@@ -4480,7 +4480,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &257769756
 GameObject:
   m_ObjectHideFlags: 0
@@ -4914,7 +4914,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &284938370
 GameObject:
   m_ObjectHideFlags: 0
@@ -5025,7 +5025,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &295204534
 GameObject:
   m_ObjectHideFlags: 0
@@ -5249,7 +5249,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &319297972
 GameObject:
   m_ObjectHideFlags: 0
@@ -5586,7 +5586,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &333945396
 GameObject:
   m_ObjectHideFlags: 0
@@ -5697,7 +5697,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &334997319
 GameObject:
   m_ObjectHideFlags: 0
@@ -6337,7 +6337,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &376417242
 GameObject:
   m_ObjectHideFlags: 0
@@ -6561,7 +6561,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &378232423
 GameObject:
   m_ObjectHideFlags: 0
@@ -6672,7 +6672,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &385318424
 GameObject:
   m_ObjectHideFlags: 0
@@ -7357,7 +7357,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &406431922
 GameObject:
   m_ObjectHideFlags: 0
@@ -7468,7 +7468,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &412316099
 GameObject:
   m_ObjectHideFlags: 0
@@ -8419,7 +8419,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &454518392
 GameObject:
   m_ObjectHideFlags: 0
@@ -8530,7 +8530,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &462722832
 GameObject:
   m_ObjectHideFlags: 0
@@ -8754,7 +8754,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &468685716
 GameObject:
   m_ObjectHideFlags: 0
@@ -8865,7 +8865,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &469277930
 GameObject:
   m_ObjectHideFlags: 0
@@ -8976,7 +8976,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &470095472
 GameObject:
   m_ObjectHideFlags: 0
@@ -9200,7 +9200,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &476956921
 GameObject:
   m_ObjectHideFlags: 0
@@ -9358,7 +9358,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &485883167
 GameObject:
   m_ObjectHideFlags: 0
@@ -9545,7 +9545,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &504616589
 GameObject:
   m_ObjectHideFlags: 0
@@ -9769,7 +9769,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &505808062
 GameObject:
   m_ObjectHideFlags: 0
@@ -10362,7 +10362,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &527502775
 GameObject:
   m_ObjectHideFlags: 0
@@ -10916,7 +10916,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &570197745
 GameObject:
   m_ObjectHideFlags: 0
@@ -11103,7 +11103,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &590151390
 GameObject:
   m_ObjectHideFlags: 0
@@ -11713,7 +11713,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &629368658
 GameObject:
   m_ObjectHideFlags: 0
@@ -11824,7 +11824,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &630052796
 GameObject:
   m_ObjectHideFlags: 0
@@ -11996,7 +11996,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &636494731
 GameObject:
   m_ObjectHideFlags: 0
@@ -12107,7 +12107,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &638969113
 GameObject:
   m_ObjectHideFlags: 0
@@ -12415,7 +12415,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &653395745
 GameObject:
   m_ObjectHideFlags: 0
@@ -12865,7 +12865,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &684381706
 GameObject:
   m_ObjectHideFlags: 0
@@ -12976,7 +12976,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &688478301
 GameObject:
   m_ObjectHideFlags: 0
@@ -13087,7 +13087,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &691521123
 GameObject:
   m_ObjectHideFlags: 0
@@ -13198,7 +13198,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &694294775
 GameObject:
   m_ObjectHideFlags: 0
@@ -13309,7 +13309,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &695268079
 GameObject:
   m_ObjectHideFlags: 0
@@ -13420,7 +13420,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &709252479
 GameObject:
   m_ObjectHideFlags: 0
@@ -13757,7 +13757,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &719478406
 GameObject:
   m_ObjectHideFlags: 0
@@ -13868,7 +13868,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &733273695
 GameObject:
   m_ObjectHideFlags: 0
@@ -14205,7 +14205,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &748128216
 GameObject:
   m_ObjectHideFlags: 0
@@ -14429,7 +14429,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &761699379
 GameObject:
   m_ObjectHideFlags: 0
@@ -14591,7 +14591,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &770041405
 GameObject:
   m_ObjectHideFlags: 0
@@ -14845,7 +14845,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &772578875
 GameObject:
   m_ObjectHideFlags: 0
@@ -14956,7 +14956,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &780465111
 GameObject:
   m_ObjectHideFlags: 0
@@ -15519,7 +15519,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &796242437
 GameObject:
   m_ObjectHideFlags: 0
@@ -15630,7 +15630,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &798192163
 GameObject:
   m_ObjectHideFlags: 0
@@ -16044,7 +16044,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &827459845
 GameObject:
   m_ObjectHideFlags: 0
@@ -16231,7 +16231,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &828439957
 GameObject:
   m_ObjectHideFlags: 0
@@ -16645,7 +16645,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &854126427
 GameObject:
   m_ObjectHideFlags: 0
@@ -16756,7 +16756,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &856212950
 GameObject:
   m_ObjectHideFlags: 0
@@ -17093,7 +17093,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &875452069
 GameObject:
   m_ObjectHideFlags: 0
@@ -17552,7 +17552,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &903590184
 GameObject:
   m_ObjectHideFlags: 0
@@ -17836,7 +17836,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &934632841
 GameObject:
   m_ObjectHideFlags: 0
@@ -18437,7 +18437,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1011914778
 GameObject:
   m_ObjectHideFlags: 0
@@ -18879,7 +18879,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1065313139
 GameObject:
   m_ObjectHideFlags: 0
@@ -19383,7 +19383,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1080404212
 GameObject:
   m_ObjectHideFlags: 0
@@ -19579,7 +19579,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1094652464
 GameObject:
   m_ObjectHideFlags: 0
@@ -19690,7 +19690,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1097802404
 GameObject:
   m_ObjectHideFlags: 0
@@ -19801,7 +19801,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1102290612
 GameObject:
   m_ObjectHideFlags: 0
@@ -19912,7 +19912,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1102770363
 GameObject:
   m_ObjectHideFlags: 0
@@ -20136,7 +20136,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1124041775
 GameObject:
   m_ObjectHideFlags: 0
@@ -20513,7 +20513,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1145786642
 GameObject:
   m_ObjectHideFlags: 0
@@ -20624,7 +20624,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1149109516
 GameObject:
   m_ObjectHideFlags: 0
@@ -20881,7 +20881,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1155983432
 GameObject:
   m_ObjectHideFlags: 0
@@ -21105,7 +21105,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1167663607
 GameObject:
   m_ObjectHideFlags: 0
@@ -21292,7 +21292,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1204908494
 GameObject:
   m_ObjectHideFlags: 0
@@ -21516,7 +21516,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1209232589
 GameObject:
   m_ObjectHideFlags: 0
@@ -22335,7 +22335,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1243785550
 GameObject:
   m_ObjectHideFlags: 0
@@ -22446,7 +22446,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1253595440
 GameObject:
   m_ObjectHideFlags: 0
@@ -22827,7 +22827,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1276004660
 GameObject:
   m_ObjectHideFlags: 0
@@ -22938,7 +22938,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1278851482
 GameObject:
   m_ObjectHideFlags: 0
@@ -23353,7 +23353,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1279374439
 GameObject:
   m_ObjectHideFlags: 0
@@ -23880,7 +23880,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1305167209
 GameObject:
   m_ObjectHideFlags: 0
@@ -24632,7 +24632,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1363001910
 GameObject:
   m_ObjectHideFlags: 0
@@ -24856,7 +24856,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1368831635
 GameObject:
   m_ObjectHideFlags: 0
@@ -25306,7 +25306,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1392128321
 GameObject:
   m_ObjectHideFlags: 0
@@ -25501,7 +25501,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1392919335
 GameObject:
   m_ObjectHideFlags: 0
@@ -25612,7 +25612,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1393824761
 GameObject:
   m_ObjectHideFlags: 0
@@ -25949,7 +25949,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1415670844
 GameObject:
   m_ObjectHideFlags: 0
@@ -26286,7 +26286,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1426761512
 GameObject:
   m_ObjectHideFlags: 0
@@ -26736,7 +26736,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1444763221
 GameObject:
   m_ObjectHideFlags: 0
@@ -27224,7 +27224,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1485415561
 GameObject:
   m_ObjectHideFlags: 0
@@ -27448,7 +27448,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1489550818
 GameObject:
   m_ObjectHideFlags: 0
@@ -28011,7 +28011,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1527328849
 GameObject:
   m_ObjectHideFlags: 0
@@ -28122,7 +28122,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1528090387
 GameObject:
   m_ObjectHideFlags: 0
@@ -28233,7 +28233,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1531429712
 GameObject:
   m_ObjectHideFlags: 0
@@ -28750,7 +28750,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1538301156
 GameObject:
   m_ObjectHideFlags: 0
@@ -29193,7 +29193,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1560687009
 GameObject:
   m_ObjectHideFlags: 0
@@ -29501,7 +29501,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1574915265
 GameObject:
   m_ObjectHideFlags: 0
@@ -29838,7 +29838,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1584682581
 GameObject:
   m_ObjectHideFlags: 0
@@ -30175,7 +30175,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1600492790
 GameObject:
   m_ObjectHideFlags: 0
@@ -30512,7 +30512,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1623774462
 GameObject:
   m_ObjectHideFlags: 0
@@ -30623,7 +30623,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1624872546
 GameObject:
   m_ObjectHideFlags: 0
@@ -30960,7 +30960,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1632006302
 GameObject:
   m_ObjectHideFlags: 0
@@ -31071,7 +31071,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1636709406
 GameObject:
   m_ObjectHideFlags: 0
@@ -31182,7 +31182,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1644951782
 GameObject:
   m_ObjectHideFlags: 0
@@ -31293,7 +31293,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1645808002
 GameObject:
   m_ObjectHideFlags: 0
@@ -31714,7 +31714,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1659504229
 GameObject:
   m_ObjectHideFlags: 0
@@ -31938,7 +31938,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1663112037
 GameObject:
   m_ObjectHideFlags: 0
@@ -32049,7 +32049,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1666607190
 GameObject:
   m_ObjectHideFlags: 0
@@ -32364,7 +32364,7 @@ GameObject:
   - component: {fileID: 1699420864}
   - component: {fileID: 1699420863}
   - component: {fileID: 1699420862}
-  - component: {fileID: 1699420861}
+  - component: {fileID: 1699420865}
   m_Layer: 0
   m_Name: SimbaSprite
   m_TagString: Untagged
@@ -32372,23 +32372,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1699420861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699420860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1a1049335f9ffe408e922924076a6c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  simbaAnimator: {fileID: 1699420862}
-  yAxis: 0
-  xAxis: 0
-  dancing: 0
-  danceTime: 0.2
 --- !u!95 &1699420862
 Animator:
   serializedVersion: 4
@@ -32399,7 +32382,7 @@ Animator:
   m_GameObject: {fileID: 1699420860}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 04a2c1c368b503c4ab23a831046a55a2, type: 2}
+  m_Controller: {fileID: 9100000, guid: b9973f75eb1234643993d01d6efeb609, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -32477,6 +32460,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1699420865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699420860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4107b7dff61a957429ad0088a195bbcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simbaAnimator: {fileID: 0}
+  yAxis: 0
+  xAxis: 0
+  dancing: 0
+  danceTime: 0.4
 --- !u!1 &1700985019
 GameObject:
   m_ObjectHideFlags: 0
@@ -32874,7 +32874,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1715050350
 GameObject:
   m_ObjectHideFlags: 0
@@ -33798,7 +33798,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1789701338
 GameObject:
   m_ObjectHideFlags: 0
@@ -34022,7 +34022,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1794291934
 GameObject:
   m_ObjectHideFlags: 0
@@ -34133,7 +34133,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1794680135
 GameObject:
   m_ObjectHideFlags: 0
@@ -34244,7 +34244,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1810337515
 GameObject:
   m_ObjectHideFlags: 0
@@ -34355,7 +34355,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1813682896
 GameObject:
   m_ObjectHideFlags: 0
@@ -34466,7 +34466,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1819919886
 GameObject:
   m_ObjectHideFlags: 0
@@ -34916,7 +34916,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1838762285
 GameObject:
   m_ObjectHideFlags: 0
@@ -35296,7 +35296,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1848639758
 GameObject:
   m_ObjectHideFlags: 0
@@ -35484,7 +35484,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1854049755
 GameObject:
   m_ObjectHideFlags: 0
@@ -35595,7 +35595,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1854603523
 GameObject:
   m_ObjectHideFlags: 0
@@ -35706,7 +35706,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1856536817
 GameObject:
   m_ObjectHideFlags: 0
@@ -35817,7 +35817,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1867379766
 GameObject:
   m_ObjectHideFlags: 0
@@ -36041,7 +36041,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1887317012
 GameObject:
   m_ObjectHideFlags: 0
@@ -36301,7 +36301,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1891942512
 GameObject:
   m_ObjectHideFlags: 0
@@ -36515,7 +36515,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1898772008
 GameObject:
   m_ObjectHideFlags: 0
@@ -36626,7 +36626,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1900113576
 GameObject:
   m_ObjectHideFlags: 0
@@ -36737,7 +36737,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1901884309
 GameObject:
   m_ObjectHideFlags: 0
@@ -37037,7 +37037,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1914317838
 GameObject:
   m_ObjectHideFlags: 0
@@ -37148,7 +37148,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1921798058
 GameObject:
   m_ObjectHideFlags: 0
@@ -37259,7 +37259,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1924472445
 GameObject:
   m_ObjectHideFlags: 0
@@ -37370,7 +37370,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1960229425
 GameObject:
   m_ObjectHideFlags: 0
@@ -37481,7 +37481,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1961047967
 GameObject:
   m_ObjectHideFlags: 0
@@ -37592,7 +37592,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1968858645
 GameObject:
   m_ObjectHideFlags: 0
@@ -37703,7 +37703,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1969991889
 GameObject:
   m_ObjectHideFlags: 0
@@ -37814,7 +37814,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1987068048
 GameObject:
   m_ObjectHideFlags: 0
@@ -37925,7 +37925,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &1987958888
 GameObject:
   m_ObjectHideFlags: 0
@@ -38149,7 +38149,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &2007326073
 GameObject:
   m_ObjectHideFlags: 0
@@ -38260,7 +38260,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &2007610057
 GameObject:
   m_ObjectHideFlags: 0
@@ -38597,7 +38597,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &2021305501
 GameObject:
   m_ObjectHideFlags: 0
@@ -39058,7 +39058,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &2053519443
 GameObject:
   m_ObjectHideFlags: 0
@@ -39169,7 +39169,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &2078278243
 GameObject:
   m_ObjectHideFlags: 0
@@ -39590,7 +39590,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &2084728495
 GameObject:
   m_ObjectHideFlags: 0
@@ -39701,7 +39701,7 @@ MonoBehaviour:
   yAxis: -1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &2094424648
 GameObject:
   m_ObjectHideFlags: 0
@@ -40038,7 +40038,7 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &2117665476
 GameObject:
   m_ObjectHideFlags: 0
@@ -40149,7 +40149,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: 1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &2123667468
 GameObject:
   m_ObjectHideFlags: 0
@@ -40260,7 +40260,7 @@ MonoBehaviour:
   yAxis: 0
   xAxis: -1
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35
 --- !u!1 &2139249681
 GameObject:
   m_ObjectHideFlags: 0
@@ -40597,4 +40597,4 @@ MonoBehaviour:
   yAxis: 1
   xAxis: 0
   dancing: 0
-  danceTime: 0.2
+  danceTime: 0.35

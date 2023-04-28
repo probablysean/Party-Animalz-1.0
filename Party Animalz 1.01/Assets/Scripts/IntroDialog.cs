@@ -42,7 +42,8 @@ public class IntroDialog : MonoBehaviour
             mainButton.SetActive(true);
         }
 
-        if (slide1 == 9)
+        //Change back to 9 later
+        if (slide1 == 5)
         {
             DIO.EndDialog();
             EndDialog();
