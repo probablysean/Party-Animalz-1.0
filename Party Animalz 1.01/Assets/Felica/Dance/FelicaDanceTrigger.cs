@@ -21,7 +21,7 @@ public class FelicaDanceTrigger : MonoBehaviour
         {
             if (dancing == false)
             {
-                Debug.Log(xAxis +", " + yAxis);
+                //Debug.Log(xAxis +", " + yAxis);
                 StartCoroutine("DanceTime");
                 felicaAnimator.SetFloat("xAxis", xAxis);
                 felicaAnimator.SetFloat("yAxis", yAxis);

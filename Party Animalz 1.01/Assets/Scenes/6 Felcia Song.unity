@@ -32472,11 +32472,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4107b7dff61a957429ad0088a195bbcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  simbaAnimator: {fileID: 0}
+  simbaAnimator: {fileID: 1699420862}
   yAxis: 0
   xAxis: 0
   dancing: 0
-  danceTime: 0.4
+  danceTime: 0.35
 --- !u!1 &1700985019
 GameObject:
   m_ObjectHideFlags: 0
