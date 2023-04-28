@@ -32,7 +32,10 @@ public class NoteObject : MonoBehaviour
                 
                 //GameManager.instance.NoteHit();
 
-                if(transform.position.y > -3.69 || transform.position.y < -3.81)
+                //Middle is 3.75
+                //Collider size 70
+
+                if(transform.position.y > -3.66 || transform.position.y < -3.84)
                 { 
                     GameManager.instance.NormalHit();
                     //Debug.Log("Nice");
@@ -44,7 +47,7 @@ public class NoteObject : MonoBehaviour
 
 
                 }
-                else if(transform.position.y > -3.73 || transform.position.y < -3.77)
+                else if(transform.position.y > -3.70 || transform.position.y < -3.80)
                 {
                     GameManager.instance.GoodHit();
                     //Debug.Log("Good");

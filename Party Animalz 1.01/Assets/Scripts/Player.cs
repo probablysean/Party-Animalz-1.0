@@ -5,9 +5,17 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public GameObject player;
+    public int trueStart;
+
 
     public void Awake()
     {
-        SceneHandler.LoadPlayer();
+        trueStart = SceneHandler.TrueStart();
+
+        if(trueStart > 1)
+        {
+            SceneHandler.LoadPlayer();
+        }
     }
+
 }

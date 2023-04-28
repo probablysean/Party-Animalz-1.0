@@ -11,8 +11,13 @@ public class SceneHandler
     public static Vector2 savedPosition;
 
     public static int liamDialogSlide;
+    public static int liamDIO;
     public static int felicaDialogSlide;
+    public static int felicaDIO;
     public static int bladeDialogSlide;
+    public static int BladeDIO;
+
+    public static int trueStart = 0;
 
     public static void SavePlayer()
     {
@@ -21,12 +26,15 @@ public class SceneHandler
 
         //liam
         liamDialogSlide = GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1;
+        liamDIO = GameObject.Find("LiamDIO").layer;
 
         //Felica
         felicaDialogSlide = GameObject.Find("FelicaDialog").GetComponent<felicadialogue>().slide1;
+        felicaDIO = GameObject.Find("felicaDIO").layer;
 
         //Blade
         bladeDialogSlide = GameObject.Find("BladeDialog").GetComponent<BladeDialog>().slide1;
+        BladeDIO = GameObject.Find("BladeDIO").layer;
     }
 
     public static void LoadPlayer()
@@ -38,15 +46,27 @@ public class SceneHandler
 
         //liam
         GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1 = liamDialogSlide;
-        Debug.Log(GameObject.Find("LiamDialog").GetComponent<LiamDialog>().slide1);
+        GameObject.Find("LiamDIO").layer = liamDIO;
 
         //Felica
         GameObject.Find("FelicaDialog").GetComponent<felicadialogue>().slide1 = felicaDialogSlide;
-        Debug.Log(GameObject.Find("FelicaDialog").GetComponent<felicadialogue>().slide1);
+        GameObject.Find("felicaDIO").layer = felicaDIO;
 
         //Blade
         GameObject.Find("BladeDialog").GetComponent<BladeDialog>().slide1 = bladeDialogSlide;
-        Debug.Log(GameObject.Find("BladeDialog").GetComponent<BladeDialog>().slide1);
+        GameObject.Find("BladeDIO").layer = BladeDIO;
+
+    }
+
+    //Stops loading on the first start
+    public static int TrueStart()
+    {
+        if(trueStart < 2)
+        {
+            trueStart++;
+        }
+
+        return trueStart;
     }
 
 }
